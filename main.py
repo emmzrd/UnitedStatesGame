@@ -44,11 +44,6 @@ while game_is_on:
     x_axis = int(state_row_dataframe[0][1])
     y_axis = int(state_row_dataframe[0][2])
 
-    print(state_row)
-    print(state_list)
-    print(x_axis)
-    print(y_axis)
-
     new_list = []
     for state in state_list:
         if state == answer_state:
